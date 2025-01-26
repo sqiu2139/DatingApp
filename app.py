@@ -119,6 +119,8 @@ def create_app():
     def friends():
         return render_template('friends.html')
 
+    # test
+
 
     @app.route('/chat')
     def chat():
